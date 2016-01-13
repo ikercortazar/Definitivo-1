@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEFC841A1C46D89C004CB1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC84191C46D89C004CB1D9 /* AppDelegate.swift */; };
+		FEFC841C1C46D89C004CB1D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC841B1C46D89C004CB1D9 /* ViewController.swift */; };
+		FEFC841F1C46D89C004CB1D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFC841D1C46D89C004CB1D9 /* Main.storyboard */; };
+		FEFC84221C46D89C004CB1D9 /* Definitivo_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEFC84201C46D89C004CB1D9 /* Definitivo_1.xcdatamodeld */; };
+		FEFC84241C46D89C004CB1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFC84231C46D89C004CB1D9 /* Assets.xcassets */; };
+		FEFC84271C46D89C004CB1D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFC84251C46D89C004CB1D9 /* LaunchScreen.storyboard */; };
+		FEFC84321C46D89C004CB1D9 /* Definitivo_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC84311C46D89C004CB1D9 /* Definitivo_1Tests.swift */; };
+		FEFC843D1C46D89C004CB1D9 /* Definitivo_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC843C1C46D89C004CB1D9 /* Definitivo_1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEFC842E1C46D89C004CB1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFC840E1C46D89C004CB1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFC84151C46D89C004CB1D9;
+			remoteInfo = "Definitivo-1";
+		};
+		FEFC84391C46D89C004CB1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFC840E1C46D89C004CB1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFC84151C46D89C004CB1D9;
+			remoteInfo = "Definitivo-1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEFC84161C46D89C004CB1D9 /* Definitivo-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Definitivo-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFC84191C46D89C004CB1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEFC841B1C46D89C004CB1D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEFC841E1C46D89C004CB1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEFC84211C46D89C004CB1D9 /* Definitivo_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Definitivo_1.xcdatamodel; sourceTree = "<group>"; };
+		FEFC84231C46D89C004CB1D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEFC84261C46D89C004CB1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEFC84281C46D89C004CB1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFC842D1C46D89C004CB1D9 /* Definitivo-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Definitivo-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFC84311C46D89C004CB1D9 /* Definitivo_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definitivo_1Tests.swift; sourceTree = "<group>"; };
+		FEFC84331C46D89C004CB1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFC84381C46D89C004CB1D9 /* Definitivo-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Definitivo-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFC843C1C46D89C004CB1D9 /* Definitivo_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definitivo_1UITests.swift; sourceTree = "<group>"; };
+		FEFC843E1C46D89C004CB1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEFC84131C46D89C004CB1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC842A1C46D89C004CB1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC84351C46D89C004CB1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEFC840D1C46D89C004CB1D9 = {
+			isa = PBXGroup;
+			children = (
+				FEFC84181C46D89C004CB1D9 /* Definitivo-1 */,
+				FEFC84301C46D89C004CB1D9 /* Definitivo-1Tests */,
+				FEFC843B1C46D89C004CB1D9 /* Definitivo-1UITests */,
+				FEFC84171C46D89C004CB1D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEFC84171C46D89C004CB1D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC84161C46D89C004CB1D9 /* Definitivo-1.app */,
+				FEFC842D1C46D89C004CB1D9 /* Definitivo-1Tests.xctest */,
+				FEFC84381C46D89C004CB1D9 /* Definitivo-1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEFC84181C46D89C004CB1D9 /* Definitivo-1 */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC84191C46D89C004CB1D9 /* AppDelegate.swift */,
+				FEFC841B1C46D89C004CB1D9 /* ViewController.swift */,
+				FEFC841D1C46D89C004CB1D9 /* Main.storyboard */,
+				FEFC84231C46D89C004CB1D9 /* Assets.xcassets */,
+				FEFC84251C46D89C004CB1D9 /* LaunchScreen.storyboard */,
+				FEFC84281C46D89C004CB1D9 /* Info.plist */,
+				FEFC84201C46D89C004CB1D9 /* Definitivo_1.xcdatamodeld */,
+			);
+			path = "Definitivo-1";
+			sourceTree = "<group>";
+		};
+		FEFC84301C46D89C004CB1D9 /* Definitivo-1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC84311C46D89C004CB1D9 /* Definitivo_1Tests.swift */,
+				FEFC84331C46D89C004CB1D9 /* Info.plist */,
+			);
+			path = "Definitivo-1Tests";
+			sourceTree = "<group>";
+		};
+		FEFC843B1C46D89C004CB1D9 /* Definitivo-1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC843C1C46D89C004CB1D9 /* Definitivo_1UITests.swift */,
+				FEFC843E1C46D89C004CB1D9 /* Info.plist */,
+			);
+			path = "Definitivo-1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEFC84151C46D89C004CB1D9 /* Definitivo-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFC84411C46D89C004CB1D9 /* Build configuration list for PBXNativeTarget "Definitivo-1" */;
+			buildPhases = (
+				FEFC84121C46D89C004CB1D9 /* Sources */,
+				FEFC84131C46D89C004CB1D9 /* Frameworks */,
+				FEFC84141C46D89C004CB1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Definitivo-1";
+			productName = "Definitivo-1";
+			productReference = FEFC84161C46D89C004CB1D9 /* Definitivo-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEFC842C1C46D89C004CB1D9 /* Definitivo-1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFC84441C46D89C004CB1D9 /* Build configuration list for PBXNativeTarget "Definitivo-1Tests" */;
+			buildPhases = (
+				FEFC84291C46D89C004CB1D9 /* Sources */,
+				FEFC842A1C46D89C004CB1D9 /* Frameworks */,
+				FEFC842B1C46D89C004CB1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFC842F1C46D89C004CB1D9 /* PBXTargetDependency */,
+			);
+			name = "Definitivo-1Tests";
+			productName = "Definitivo-1Tests";
+			productReference = FEFC842D1C46D89C004CB1D9 /* Definitivo-1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEFC84371C46D89C004CB1D9 /* Definitivo-1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFC84471C46D89C004CB1D9 /* Build configuration list for PBXNativeTarget "Definitivo-1UITests" */;
+			buildPhases = (
+				FEFC84341C46D89C004CB1D9 /* Sources */,
+				FEFC84351C46D89C004CB1D9 /* Frameworks */,
+				FEFC84361C46D89C004CB1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFC843A1C46D89C004CB1D9 /* PBXTargetDependency */,
+			);
+			name = "Definitivo-1UITests";
+			productName = "Definitivo-1UITests";
+			productReference = FEFC84381C46D89C004CB1D9 /* Definitivo-1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEFC840E1C46D89C004CB1D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ikerusta;
+				TargetAttributes = {
+					FEFC84151C46D89C004CB1D9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FEFC842C1C46D89C004CB1D9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FEFC84151C46D89C004CB1D9;
+					};
+					FEFC84371C46D89C004CB1D9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FEFC84151C46D89C004CB1D9;
+					};
+				};
+			};
+			buildConfigurationList = FEFC84111C46D89C004CB1D9 /* Build configuration list for PBXProject "Definitivo-1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEFC840D1C46D89C004CB1D9;
+			productRefGroup = FEFC84171C46D89C004CB1D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEFC84151C46D89C004CB1D9 /* Definitivo-1 */,
+				FEFC842C1C46D89C004CB1D9 /* Definitivo-1Tests */,
+				FEFC84371C46D89C004CB1D9 /* Definitivo-1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEFC84141C46D89C004CB1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFC84271C46D89C004CB1D9 /* LaunchScreen.storyboard in Resources */,
+				FEFC84241C46D89C004CB1D9 /* Assets.xcassets in Resources */,
+				FEFC841F1C46D89C004CB1D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC842B1C46D89C004CB1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC84361C46D89C004CB1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEFC84121C46D89C004CB1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFC841C1C46D89C004CB1D9 /* ViewController.swift in Sources */,
+				FEFC84221C46D89C004CB1D9 /* Definitivo_1.xcdatamodeld in Sources */,
+				FEFC841A1C46D89C004CB1D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC84291C46D89C004CB1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFC84321C46D89C004CB1D9 /* Definitivo_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC84341C46D89C004CB1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFC843D1C46D89C004CB1D9 /* Definitivo_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEFC842F1C46D89C004CB1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEFC84151C46D89C004CB1D9 /* Definitivo-1 */;
+			targetProxy = FEFC842E1C46D89C004CB1D9 /* PBXContainerItemProxy */;
+		};
+		FEFC843A1C46D89C004CB1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEFC84151C46D89C004CB1D9 /* Definitivo-1 */;
+			targetProxy = FEFC84391C46D89C004CB1D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEFC841D1C46D89C004CB1D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFC841E1C46D89C004CB1D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEFC84251C46D89C004CB1D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFC84261C46D89C004CB1D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEFC843F1C46D89C004CB1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEFC84401C46D89C004CB1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEFC84421C46D89C004CB1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Definitivo-1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ikerusta.Definitivo-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEFC84431C46D89C004CB1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Definitivo-1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ikerusta.Definitivo-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEFC84451C46D89C004CB1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Definitivo-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ikerusta.Definitivo-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Definitivo-1.app/Definitivo-1";
+			};
+			name = Debug;
+		};
+		FEFC84461C46D89C004CB1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Definitivo-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ikerusta.Definitivo-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Definitivo-1.app/Definitivo-1";
+			};
+			name = Release;
+		};
+		FEFC84481C46D89C004CB1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Definitivo-1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ikerusta.Definitivo-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Definitivo-1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FEFC84491C46D89C004CB1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Definitivo-1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ikerusta.Definitivo-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Definitivo-1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEFC84111C46D89C004CB1D9 /* Build configuration list for PBXProject "Definitivo-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFC843F1C46D89C004CB1D9 /* Debug */,
+				FEFC84401C46D89C004CB1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFC84411C46D89C004CB1D9 /* Build configuration list for PBXNativeTarget "Definitivo-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFC84421C46D89C004CB1D9 /* Debug */,
+				FEFC84431C46D89C004CB1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEFC84441C46D89C004CB1D9 /* Build configuration list for PBXNativeTarget "Definitivo-1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFC84451C46D89C004CB1D9 /* Debug */,
+				FEFC84461C46D89C004CB1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEFC84471C46D89C004CB1D9 /* Build configuration list for PBXNativeTarget "Definitivo-1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFC84481C46D89C004CB1D9 /* Debug */,
+				FEFC84491C46D89C004CB1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEFC84201C46D89C004CB1D9 /* Definitivo_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEFC84211C46D89C004CB1D9 /* Definitivo_1.xcdatamodel */,
+			);
+			currentVersion = FEFC84211C46D89C004CB1D9 /* Definitivo_1.xcdatamodel */;
+			path = Definitivo_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEFC840E1C46D89C004CB1D9 /* Project object */;
+}
